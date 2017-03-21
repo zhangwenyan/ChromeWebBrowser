@@ -34,11 +34,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 578);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(181)))), ((int)(((byte)(95)))));
+            this.ClientSize = new System.Drawing.Size(825, 556);
+            this.ControlBoxActive = System.Drawing.Color.Lime;
+            this.EffectCaption = CCWin.TitleType.Title;
+            this.EffectWidth = 0;
             this.Name = "MainForm";
+            this.RoundStyle = CCWin.SkinClass.RoundStyle.None;
+            this.ShowBorder = false;
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
-            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Text = "测试工具";
+            this.TitleColor = System.Drawing.Color.White;
+            this.TitleOffset = new System.Drawing.Point(13, 4);
             this.ResumeLayout(false);
 
         }
